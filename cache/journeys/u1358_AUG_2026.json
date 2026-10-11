@@ -1,0 +1,438 @@
+{
+ "user_id": "u1358",
+ "period": "AUG_2026",
+ "source": "llm",
+ "attempts": 2,
+ "key": "GEMINI_API_KEY_1",
+ "journey": {
+  "sessions": [
+   {
+    "day": 8,
+    "start": "20:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_crime_spannung",
+       "lane_beliebte_serien"
+      ],
+      "click": {
+       "lane": "lane_crime_spannung",
+       "title": "joyn_ncis_hawaii"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ncis_hawaii_s01e01",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ncis_hawaii_s01e02",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 10,
+    "start": "21:30",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_dramen_meisterwerke",
+       "lane_crime_spannung"
+      ],
+      "click": {
+       "lane": "lane_dramen_meisterwerke",
+       "title": "joyn_sloborn"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sloborn_s01e01",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 12,
+    "start": "19:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_crime_spannung",
+       "lane_beliebte_serien"
+      ],
+      "click": {
+       "lane": "lane_crime_spannung",
+       "title": "joyn_tatort_berlin_der_feind_im_schatten"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_tatort_berlin_der_feind_im_schatten",
+       "watch": 0.85,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 15,
+    "start": "20:15",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_crime_spannung"
+      ],
+      "click": {
+       "lane": "lane_crime_spannung",
+       "title": "joyn_ncis_hawaii"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ncis_hawaii_s01e03",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ncis_hawaii_s01e04",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ncis_hawaii_s01e05",
+       "watch": 0.4,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 18,
+    "start": "18:30",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_serien",
+       "lane_crime_spannung"
+      ],
+      "click": {
+       "lane": "lane_beliebte_serien",
+       "title": "joyn_wilsberg_ekstase"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_wilsberg_ekstase",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 21,
+    "start": "21:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_dramen_meisterwerke"
+      ],
+      "click": {
+       "lane": "lane_dramen_meisterwerke",
+       "title": "joyn_sloborn"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sloborn_s01e02",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sloborn_s01e03",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 24,
+    "start": "20:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_crime_spannung"
+      ],
+      "click": {
+       "lane": "lane_crime_spannung",
+       "title": "joyn_ncis_hawaii"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ncis_hawaii_s01e05",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ncis_hawaii_s01e06",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 27,
+    "start": "22:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_dramen_meisterwerke"
+      ],
+      "click": {
+       "lane": "lane_dramen_meisterwerke",
+       "title": "joyn_sloborn"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sloborn_s01e04",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ },
+ "brief_hash": "1ab933f6dc349adf"
+}

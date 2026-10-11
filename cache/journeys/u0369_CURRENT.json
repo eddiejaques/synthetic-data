@@ -1,0 +1,976 @@
+{
+ "user_id": "u0369",
+ "period": "CURRENT",
+ "source": "fallback",
+ "attempts": 2,
+ "violations": [
+  "session 6 (day 27 18:00) step 5 [registration_wall]: SVOD content for a anonymous user must show paywall, not registration_wall",
+  "session 6 (day 27 18:00) step 5 [registration_wall]: wall for 'joyn_jerks' must follow a click on it or its detail page"
+ ],
+ "journey": {
+  "sessions": [
+   {
+    "day": 6,
+    "start": "22:10",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_comedy_highlights",
+       "lane_top_reality_momente",
+       "lane_reality_tv_megahits",
+       "lane_nur_auf_joyn_exklusiv"
+      ],
+      "click": {
+       "lane": "lane_nur_auf_joyn_exklusiv",
+       "title": "joyn_das_sommerhaus_der_stars_highlights"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_das_sommerhaus_der_stars_highlights",
+       "watch": 0.76,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_comedy_highlights",
+       "lane_top_reality_momente",
+       "lane_reality_tv_megahits",
+       "lane_nur_auf_joyn_exklusiv"
+      ],
+      "click": {
+       "lane": "lane_nur_auf_joyn_exklusiv",
+       "title": "joyn_das_sommerhaus_der_stars_highlights"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_das_sommerhaus_der_stars_highlights",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_comedy_highlights",
+       "lane_top_reality_momente",
+       "lane_reality_tv_megahits",
+       "lane_nur_auf_joyn_exklusiv"
+      ],
+      "click": {
+       "lane": "lane_reality_tv_megahits",
+       "title": "joyn_ran_football_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_live",
+       "watch": null,
+       "minutes": 151,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 11,
+    "start": "14:31",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_serien",
+       "lane_beliebte_shows_highlights",
+       "lane_nur_auf_joyn_exklusiv",
+       "lane_top_reality_momente"
+      ],
+      "click": {
+       "lane": "lane_nur_auf_joyn_exklusiv",
+       "title": "joyn_big_brother"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_big_brother_s02e03",
+       "watch": 0.36,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_serien",
+       "lane_beliebte_shows_highlights",
+       "lane_nur_auf_joyn_exklusiv",
+       "lane_top_reality_momente"
+      ],
+      "click": {
+       "lane": "lane_beliebte_shows_highlights",
+       "title": "joyn_k1_magazin"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_k1_magazin_s02e08",
+       "watch": 0.16,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_serien",
+       "lane_beliebte_shows_highlights",
+       "lane_nur_auf_joyn_exklusiv",
+       "lane_top_reality_momente"
+      ],
+      "click": {
+       "lane": "lane_beliebte_shows_highlights",
+       "title": "joyn_the_voice"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_the_voice_s01e03",
+       "watch": 0.42,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_the_voice_s01e04",
+       "watch": 0.45,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_serien",
+       "lane_beliebte_shows_highlights",
+       "lane_nur_auf_joyn_exklusiv",
+       "lane_top_reality_momente"
+      ],
+      "click": {
+       "lane": "lane_beliebte_shows_highlights",
+       "title": "joyn_das_sommerhaus_der_stars_highlights"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_das_sommerhaus_der_stars_highlights",
+       "watch": 0.7,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_serien",
+       "lane_beliebte_shows_highlights",
+       "lane_nur_auf_joyn_exklusiv",
+       "lane_top_reality_momente"
+      ],
+      "click": {
+       "lane": "lane_nur_auf_joyn_exklusiv",
+       "title": "joyn_big_brother"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_big_brother_s01e06",
+       "watch": 0.52,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_big_brother_s01e07",
+       "watch": 0.23,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_big_brother_s01e08",
+       "watch": 0.69,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 13,
+    "start": "13:54",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_shows_highlights",
+       "lane_reality_tv_megahits",
+       "lane_news_reportagen",
+       "lane_top_reality_momente"
+      ],
+      "click": {
+       "lane": "lane_news_reportagen",
+       "title": "joyn_sat1_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sat1_live",
+       "watch": null,
+       "minutes": 34,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_shows_highlights",
+       "lane_reality_tv_megahits",
+       "lane_news_reportagen",
+       "lane_top_reality_momente"
+      ],
+      "click": {
+       "lane": "lane_top_reality_momente",
+       "title": "joyn_tagesschau_jahresruckblick"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_tagesschau_jahresruckblick",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_shows_highlights",
+       "lane_reality_tv_megahits",
+       "lane_news_reportagen",
+       "lane_top_reality_momente"
+      ],
+      "click": {
+       "lane": "lane_beliebte_shows_highlights",
+       "title": "joyn_k1_magazin"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_k1_magazin_s02e01",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_k1_magazin_s02e02",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_k1_magazin_s02e03",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_k1_magazin_s02e04",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_k1_magazin_s02e05",
+       "watch": 0.1,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_k1_magazin_s02e06",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_k1_magazin_s02e07",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_k1_magazin_s02e08",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 21,
+    "start": "18:59",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_crime_spannung",
+       "lane_reality_tv_megahits",
+       "lane_live_sports_action"
+      ],
+      "click": {
+       "lane": "lane_reality_tv_megahits",
+       "title": "joyn_promi_big_brother_die_besten_momente"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_promi_big_brother_die_besten_momente",
+       "watch": 0.39,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_crime_spannung",
+       "lane_reality_tv_megahits",
+       "lane_live_sports_action"
+      ],
+      "click": {
+       "lane": "lane_reality_tv_megahits",
+       "title": "joyn_ran_football_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_live",
+       "watch": null,
+       "minutes": 218,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 27,
+    "start": "15:30",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_serien",
+       "lane_live_sports_action",
+       "lane_empfohlen_fur_dich"
+      ],
+      "click": {
+       "lane": "lane_beliebte_serien",
+       "title": "joyn_wilsberg_ekstase"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_wilsberg_ekstase",
+       "watch": 0.56,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_serien",
+       "lane_live_sports_action",
+       "lane_empfohlen_fur_dich"
+      ],
+      "click": {
+       "lane": "lane_empfohlen_fur_dich",
+       "title": "joyn_ran_football"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_s02e01",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_s02e02",
+       "watch": 0.64,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_s02e03",
+       "watch": 0.34,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_s02e04",
+       "watch": 0.46,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_s02e05",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_s02e06",
+       "watch": 0.42,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_s02e07",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_s02e08",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_s02e09",
+       "watch": 0.61,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_serien",
+       "lane_live_sports_action",
+       "lane_empfohlen_fur_dich"
+      ],
+      "click": {
+       "lane": "lane_live_sports_action",
+       "title": "joyn_k1_magazin"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_k1_magazin_s02e08",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_serien",
+       "lane_live_sports_action",
+       "lane_empfohlen_fur_dich"
+      ],
+      "click": {
+       "lane": "lane_empfohlen_fur_dich",
+       "title": "joyn_the_voice"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_the_voice_s02e04",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_the_voice_s02e05",
+       "watch": 1.0,
+       "minutes": null,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_the_voice_s02e06",
+       "watch": 0.67,
+       "minutes": null,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ }
+}

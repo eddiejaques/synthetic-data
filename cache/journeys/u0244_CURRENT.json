@@ -1,0 +1,209 @@
+{
+ "user_id": "u0244",
+ "period": "CURRENT",
+ "source": "llm",
+ "attempts": 1,
+ "key": "GEMINI_API_KEY_4",
+ "journey": {
+  "sessions": [
+   {
+    "day": 2,
+    "start": "19:30",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_sat1_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sat1_live",
+       "watch": null,
+       "minutes": 45,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_live_sports_action"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_prosieben_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_prosieben_live",
+       "watch": null,
+       "minutes": 30,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 9,
+    "start": "20:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_sat1_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sat1_live",
+       "watch": null,
+       "minutes": 90,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 14,
+    "start": "18:15",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_prosieben_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_prosieben_live",
+       "watch": null,
+       "minutes": 60,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 20,
+    "start": "21:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_sat1_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sat1_live",
+       "watch": null,
+       "minutes": 120,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_live_sports_action"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_ran_football_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_live",
+       "watch": null,
+       "minutes": 39,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ }
+}

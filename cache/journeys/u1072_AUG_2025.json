@@ -1,0 +1,103 @@
+{
+ "user_id": "u1072",
+ "period": "AUG_2025",
+ "source": "llm",
+ "attempts": 1,
+ "key": "GEMINI_API_KEY_4",
+ "journey": {
+  "sessions": [
+   {
+    "day": 5,
+    "start": "21:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_shows_highlights",
+       "lane_jetzt_live_im_stream",
+       "lane_blockbuster_top_filme",
+       "lane_comedy_highlights"
+      ],
+      "click": {
+       "lane": "lane_blockbuster_top_filme",
+       "title": "joyn_fack_ju_gohte"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_shows_highlights",
+       "lane_reality_tv_megahits"
+      ],
+      "click": {
+       "lane": "lane_reality_tv_megahits",
+       "title": "joyn_gntm"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 14,
+    "start": "19:30",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_shows_highlights",
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_sat1_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_live_sports_action"
+      ],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ },
+ "brief_hash": "70c2ebd2da130ca6"
+}

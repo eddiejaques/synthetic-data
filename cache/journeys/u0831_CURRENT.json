@@ -1,0 +1,45 @@
+{
+ "user_id": "u0831",
+ "period": "CURRENT",
+ "source": "fallback",
+ "attempts": 2,
+ "violations": [
+  "session 1 (day 6 15:30) step 5 [registration_wall]: wall for 'joyn_tatort_berlin_der_feind_im_schatten' must follow a click on it or its detail page"
+ ],
+ "journey": {
+  "sessions": [
+   {
+    "day": 20,
+    "start": "18:07",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_news_reportagen",
+       "lane_live_sports_action",
+       "lane_reality_tv_megahits"
+      ],
+      "click": {
+       "lane": "lane_live_sports_action",
+       "title": "joyn_ran_basketball_spielzusammenfassung"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ }
+}

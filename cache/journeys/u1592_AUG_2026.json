@@ -1,0 +1,609 @@
+{
+ "user_id": "u1592",
+ "period": "AUG_2026",
+ "source": "llm",
+ "attempts": 1,
+ "key": "GEMINI_API_KEY_4",
+ "journey": {
+  "sessions": [
+   {
+    "day": 8,
+    "start": "19:30",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_sat1_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sat1_live",
+       "watch": null,
+       "minutes": 15,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_live_sports_action"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_prosieben_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_prosieben_live",
+       "watch": null,
+       "minutes": 25,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_live_sports_action"
+      ],
+      "click": {
+       "lane": "lane_live_sports_action",
+       "title": "joyn_ran_football_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_live",
+       "watch": null,
+       "minutes": 10,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 10,
+    "start": "20:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_live_sports_action"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_big_brother_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_big_brother_live",
+       "watch": null,
+       "minutes": 45,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_live_sports_action"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_sat1_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sat1_live",
+       "watch": null,
+       "minutes": 20,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 13,
+    "start": "18:15",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_prosieben_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_prosieben_live",
+       "watch": null,
+       "minutes": 30,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_sat1_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sat1_live",
+       "watch": null,
+       "minutes": 15,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 15,
+    "start": "21:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_live_sports_action"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_big_brother_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_big_brother_live",
+       "watch": null,
+       "minutes": 60,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_live_sports_action"
+      ],
+      "click": {
+       "lane": "lane_live_sports_action",
+       "title": "joyn_ran_football_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_live",
+       "watch": null,
+       "minutes": 35,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 19,
+    "start": "20:30",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_sat1_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sat1_live",
+       "watch": null,
+       "minutes": 20,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_prosieben_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_prosieben_live",
+       "watch": null,
+       "minutes": 40,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_big_brother_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_big_brother_live",
+       "watch": null,
+       "minutes": 15,
+       "outcome": "abandoned"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 22,
+    "start": "19:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_live_sports_action"
+      ],
+      "click": {
+       "lane": "lane_live_sports_action",
+       "title": "joyn_ran_football_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_live",
+       "watch": null,
+       "minutes": 50,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_live_sports_action"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_sat1_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sat1_live",
+       "watch": null,
+       "minutes": 20,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 25,
+    "start": "21:15",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_prosieben_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_prosieben_live",
+       "watch": null,
+       "minutes": 45,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_big_brother_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_big_brother_live",
+       "watch": null,
+       "minutes": 30,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 28,
+    "start": "20:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_sat1_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_sat1_live",
+       "watch": null,
+       "minutes": 25,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_prosieben_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_prosieben_live",
+       "watch": null,
+       "minutes": 35,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_live_sports_action"
+      ],
+      "click": {
+       "lane": "lane_live_sports_action",
+       "title": "joyn_ran_football_live"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "player",
+      "lanes": [],
+      "click": null,
+      "play": {
+       "content": "joyn_ran_football_live",
+       "watch": null,
+       "minutes": 40,
+       "outcome": "completed"
+      },
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ },
+ "brief_hash": "b3e84251c74c5554"
+}

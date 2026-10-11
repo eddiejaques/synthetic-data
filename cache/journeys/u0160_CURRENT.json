@@ -1,0 +1,78 @@
+{
+ "user_id": "u0160",
+ "period": "CURRENT",
+ "source": "fallback",
+ "attempts": 2,
+ "violations": [
+  "session 1 (day 12 20:30) step 3 [paywall]: wall for 'joyn_fack_ju_gohte' must follow a click on it or its detail page"
+ ],
+ "journey": {
+  "sessions": [
+   {
+    "day": 16,
+    "start": "13:29",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_top_reality_momente",
+       "lane_dramen_meisterwerke",
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_top_reality_momente",
+       "title": "joyn_das_sommerhaus_der_stars_highlights"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 25,
+    "start": "22:38",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_comedy_highlights",
+       "lane_live_sports_action",
+       "lane_blockbuster_top_filme",
+       "lane_nur_auf_joyn_exklusiv"
+      ],
+      "click": {
+       "lane": "lane_comedy_highlights",
+       "title": "joyn_manta_manta"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ }
+}

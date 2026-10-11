@@ -1,0 +1,154 @@
+{
+ "user_id": "u1201",
+ "period": "AUG_2025",
+ "source": "llm",
+ "attempts": 1,
+ "key": "GEMINI_API_KEY_1",
+ "journey": {
+  "sessions": [
+   {
+    "day": 12,
+    "start": "13:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_shows_highlights",
+       "lane_jetzt_live_im_stream",
+       "lane_blockbuster_top_filme",
+       "lane_reality_tv_megahits",
+       "lane_comedy_highlights",
+       "lane_dramen_meisterwerke",
+       "lane_crime_spannung",
+       "lane_live_sports_action",
+       "lane_news_reportagen",
+       "lane_nur_auf_joyn_exklusiv",
+       "lane_beliebte_serien",
+       "lane_top_reality_momente",
+       "lane_empfohlen_fur_dich"
+      ],
+      "click": {
+       "lane": "lane_reality_tv_megahits",
+       "title": "joyn_gntm"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_shows_highlights",
+       "lane_jetzt_live_im_stream",
+       "lane_blockbuster_top_filme",
+       "lane_reality_tv_megahits",
+       "lane_comedy_highlights",
+       "lane_dramen_meisterwerke",
+       "lane_crime_spannung",
+       "lane_live_sports_action",
+       "lane_news_reportagen",
+       "lane_nur_auf_joyn_exklusiv",
+       "lane_beliebte_serien",
+       "lane_top_reality_momente",
+       "lane_empfohlen_fur_dich"
+      ],
+      "click": {
+       "lane": "lane_comedy_highlights",
+       "title": "joyn_fack_ju_gohte"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "paywall",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": "joyn_fack_ju_gohte",
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 19,
+    "start": "12:30",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_shows_highlights",
+       "lane_jetzt_live_im_stream",
+       "lane_blockbuster_top_filme",
+       "lane_reality_tv_megahits",
+       "lane_comedy_highlights",
+       "lane_dramen_meisterwerke",
+       "lane_crime_spannung",
+       "lane_live_sports_action",
+       "lane_news_reportagen",
+       "lane_nur_auf_joyn_exklusiv",
+       "lane_beliebte_serien",
+       "lane_top_reality_momente",
+       "lane_empfohlen_fur_dich"
+      ],
+      "click": {
+       "lane": "lane_beliebte_shows_highlights",
+       "title": "joyn_the_voice"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "search",
+      "lanes": [
+       "lane_empfohlen_fur_dich"
+      ],
+      "click": {
+       "lane": "lane_empfohlen_fur_dich",
+       "title": "joyn_ncis_hawaii"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "registration_wall",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": "joyn_ncis_hawaii",
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ },
+ "brief_hash": "4a4b361602f839f2"
+}

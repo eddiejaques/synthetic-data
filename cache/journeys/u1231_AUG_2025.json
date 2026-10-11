@@ -1,0 +1,78 @@
+{
+ "user_id": "u1231",
+ "period": "AUG_2025",
+ "source": "fallback",
+ "attempts": 2,
+ "violations": [
+  "session 2 (day 9 16:00) step 3 [registration_wall]: wall for 'joyn_ran_fighting_die_k_o_highlights' must follow a click on it or its detail page"
+ ],
+ "journey": {
+  "sessions": [
+   {
+    "day": 5,
+    "start": "18:09",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_beliebte_serien"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_tagesschau_jahresruckblick"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 25,
+    "start": "18:26",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_top_reality_momente",
+       "lane_empfohlen_fur_dich",
+       "lane_beliebte_shows_highlights",
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_empfohlen_fur_dich",
+       "title": "joyn_the_voice"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ },
+ "brief_hash": "9f63f07cfa2c4d3f"
+}

@@ -1,0 +1,43 @@
+{
+ "user_id": "u0723",
+ "period": "CURRENT",
+ "source": "llm",
+ "attempts": 1,
+ "key": "GEMINI_API_KEY_2",
+ "journey": {
+  "sessions": [
+   {
+    "day": 6,
+    "start": "15:30",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_live_sports_action",
+       "lane_dramen_meisterwerke",
+       "lane_crime_spannung"
+      ],
+      "click": {
+       "lane": "lane_crime_spannung",
+       "title": "joyn_tatort_berlin_der_feind_im_schatten"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ }
+}

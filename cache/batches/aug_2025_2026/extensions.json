@@ -1,0 +1,3618 @@
+{
+ "u0004": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 49.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": [
+    {
+     "when": "2026-08-27T06:06:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    14,
+    37
+   ],
+   "target_watch_hours": 110.1,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": [
+    {
+     "when": "2026-09-27T21:08:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0011": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 7.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": []
+  }
+ },
+ "u0042": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 27.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": [
+    {
+     "when": "2026-08-07T13:19:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 46.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "crime and drama completist, watches episodes in order",
+   "billing": [
+    {
+     "when": "2026-09-07T20:13:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0045": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 8.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": true,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": []
+  }
+ },
+ "u0062": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 30.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "sports-first viewer, Saturday football and highlights",
+   "billing": []
+  }
+ },
+ "u0072": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    7,
+    18
+   ],
+   "target_watch_hours": 53.6,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": []
+  }
+ },
+ "u0085": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": []
+  }
+ },
+ "u0114": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 5.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "sports-first viewer, Saturday football and highlights",
+   "billing": []
+  }
+ },
+ "u0125": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 30.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": 15,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 13.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": [
+    {
+     "when": "2026-09-15T14:46:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0138": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": []
+  }
+ },
+ "u0154": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 21.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": [
+    {
+     "when": "2026-08-15T19:06:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 4.7,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": [
+    {
+     "when": "2026-09-15T09:38:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0162": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 38.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 16.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": []
+  }
+ },
+ "u0164": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 15.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": [
+    {
+     "when": "2026-08-01T09:03:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 7.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": [
+    {
+     "when": "2026-09-01T10:19:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0165": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 9.5,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": [
+    {
+     "when": "2026-08-09T13:34:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    11,
+    29
+   ],
+   "target_watch_hours": 84.8,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "crime and drama completist, watches episodes in order",
+   "billing": [
+    {
+     "when": "2026-09-09T11:53:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0169": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "crime and drama completist, watches episodes in order",
+   "billing": []
+  }
+ },
+ "u0179": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 12.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": []
+  }
+ },
+ "u0180": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 4.1,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": [
+    {
+     "when": "2026-08-05T06:54:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    13,
+    34
+   ],
+   "target_watch_hours": 99.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "crime and drama completist, watches episodes in order",
+   "billing": [
+    {
+     "when": "2026-09-05T21:32:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0187": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    12,
+    32
+   ],
+   "target_watch_hours": 95.8,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": []
+  }
+ },
+ "u0193": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 16.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": []
+  }
+ },
+ "u0205": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 28.8,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": []
+  }
+ },
+ "u0212": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": true,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": []
+  }
+ },
+ "u0218": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 28.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": []
+  }
+ },
+ "u0221": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 5.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": [
+    {
+     "when": "2026-08-24T06:27:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 36.5,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": [
+    {
+     "when": "2026-09-24T07:47:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0242": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "crime and drama completist, watches episodes in order",
+   "billing": []
+  }
+ },
+ "u0243": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 5.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": []
+  }
+ },
+ "u0258": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 24.7,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "crime and drama completist, watches episodes in order",
+   "billing": [
+    {
+     "when": "2026-08-18T06:14:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 6.6,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": [
+    {
+     "when": "2026-09-18T06:51:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0277": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 8.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "crime and drama completist, watches episodes in order",
+   "billing": []
+  }
+ },
+ "u0281": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 10.5,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": []
+  }
+ },
+ "u0307": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 27.1,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": true,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": []
+  }
+ },
+ "u0319": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    18,
+    45
+   ],
+   "target_watch_hours": 140.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  }
+ },
+ "u0320": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 43.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": []
+  }
+ },
+ "u0321": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 5.7,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": [
+    {
+     "when": "2026-08-03T18:23:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 6.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": [
+    {
+     "when": "2026-09-03T07:34:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0327": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 7.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": []
+  }
+ },
+ "u0329": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 5.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  }
+ },
+ "u0330": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    14,
+    35
+   ],
+   "target_watch_hours": 104.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": [
+    {
+     "when": "2026-08-26T10:31:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    9
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": [
+    {
+     "when": "2026-09-26T16:40:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0336": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 15.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": [
+    {
+     "when": "2026-08-16T12:03:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 5.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": [
+    {
+     "when": "2026-09-16T07:32:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0349": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 11.7,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 44.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": [
+    {
+     "when": "2026-09-09T07:48:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "annual"
+    }
+   ]
+  }
+ },
+ "u0353": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    9,
+    23
+   ],
+   "target_watch_hours": 67.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  }
+ },
+ "u0357": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 18.6,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": [
+    {
+     "when": "2026-08-03T13:21:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 15.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": [
+    {
+     "when": "2026-09-03T06:05:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0371": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 14.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "sports-first viewer, Saturday football and highlights",
+   "billing": []
+  }
+ },
+ "u0375": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 28.5,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": [
+    {
+     "when": "2026-08-17T15:37:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 43.8,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": [
+    {
+     "when": "2026-09-17T21:35:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0378": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 17.7,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": [
+    {
+     "when": "2026-08-06T20:49:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 2.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": [
+    {
+     "when": "2026-09-06T18:09:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0385": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 31.5,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": [
+    {
+     "when": "2026-08-24T09:35:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 25.8,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": 26,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": [
+    {
+     "when": "2026-09-24T10:10:00",
+     "kind": "renewal",
+     "outcome": "failed",
+     "failure_reason": "insufficient_funds",
+     "attempt_number": 1,
+     "plan": "monthly"
+    },
+    {
+     "when": "2026-09-26T10:43:00",
+     "kind": "retry",
+     "outcome": "failed",
+     "failure_reason": "card_declined",
+     "attempt_number": 2,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0389": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": []
+  }
+ },
+ "u0392": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 17.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": []
+  }
+ },
+ "u0399": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 19.1,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": []
+  }
+ },
+ "u0432": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 31.5,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "crime and drama completist, watches episodes in order",
+   "billing": []
+  }
+ },
+ "u0446": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  }
+ },
+ "u0447": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 21.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": []
+  }
+ },
+ "u0475": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 29.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "sports-first viewer, Saturday football and highlights",
+   "billing": [
+    {
+     "when": "2026-08-24T09:36:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 8.7,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": [
+    {
+     "when": "2026-09-24T18:11:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0499": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 15.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": []
+  }
+ },
+ "u0503": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 30.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": []
+  }
+ },
+ "u0516": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    20
+   ],
+   "target_watch_hours": 57.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  }
+ },
+ "u0539": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 5.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": [
+    {
+     "when": "2026-08-16T21:58:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0540": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  }
+ },
+ "u0543": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 29.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "sports-first viewer, Saturday football and highlights",
+   "billing": []
+  }
+ },
+ "u0548": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    7,
+    18
+   ],
+   "target_watch_hours": 54.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "crime and drama completist, watches episodes in order",
+   "billing": []
+  }
+ },
+ "u0552": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 19.6,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  }
+ },
+ "u0597": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    5,
+    18
+   ],
+   "target_watch_hours": 34.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": []
+  }
+ },
+ "u0608": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 31.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  }
+ },
+ "u0615": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": []
+  }
+ },
+ "u0629": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 35.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 10.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": []
+  }
+ },
+ "u0644": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    12,
+    30
+   ],
+   "target_watch_hours": 88.7,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": [
+    {
+     "when": "2026-08-07T14:06:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 10.7,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": [
+    {
+     "when": "2026-09-07T11:44:00",
+     "kind": "renewal",
+     "outcome": "failed",
+     "failure_reason": "card_declined",
+     "attempt_number": 1,
+     "plan": "monthly"
+    },
+    {
+     "when": "2026-09-08T14:28:00",
+     "kind": "retry",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 2,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0650": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 27.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "sports-first viewer, Saturday football and highlights",
+   "billing": []
+  }
+ },
+ "u0680": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 19.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": []
+  }
+ },
+ "u0700": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 20.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": [
+    {
+     "when": "2026-08-02T08:49:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 3.7,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": [
+    {
+     "when": "2026-09-02T12:17:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0701": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    13,
+    34
+   ],
+   "target_watch_hours": 101.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "sports-first viewer, Saturday football and highlights",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": []
+  }
+ },
+ "u0702": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    5,
+    18
+   ],
+   "target_watch_hours": 34.6,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    9
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": 10,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": []
+  }
+ },
+ "u0713": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 25.6,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": []
+  }
+ },
+ "u0746": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 12.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  }
+ },
+ "u0751": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 6.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": []
+  }
+ },
+ "u0756": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  }
+ },
+ "u0760": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 28.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": [
+    {
+     "when": "2026-08-21T14:26:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 16.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": [
+    {
+     "when": "2026-09-21T10:04:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0761": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 8.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "crime and drama completist, watches episodes in order",
+   "billing": []
+  }
+ },
+ "u0774": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    18,
+    45
+   ],
+   "target_watch_hours": 140.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": []
+  }
+ },
+ "u0775": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 8.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": [
+    {
+     "when": "2026-08-06T15:29:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 34.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": [
+    {
+     "when": "2026-09-06T13:56:00",
+     "kind": "renewal",
+     "outcome": "failed",
+     "failure_reason": "insufficient_funds",
+     "attempt_number": 1,
+     "plan": "monthly"
+    },
+    {
+     "when": "2026-09-08T13:58:00",
+     "kind": "retry",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 2,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0779": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    13,
+    33
+   ],
+   "target_watch_hours": 96.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": [
+    {
+     "when": "2026-08-19T18:28:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 10.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": 22,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": [
+    {
+     "when": "2026-09-19T17:58:00",
+     "kind": "renewal",
+     "outcome": "failed",
+     "failure_reason": "insufficient_funds",
+     "attempt_number": 1,
+     "plan": "monthly"
+    },
+    {
+     "when": "2026-09-22T20:39:00",
+     "kind": "retry",
+     "outcome": "failed",
+     "failure_reason": "expired_card",
+     "attempt_number": 2,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0784": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    10,
+    27
+   ],
+   "target_watch_hours": 79.8,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": []
+  }
+ },
+ "u0795": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    7,
+    18
+   ],
+   "target_watch_hours": 53.8,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "sports-first viewer, Saturday football and highlights",
+   "billing": []
+  }
+ },
+ "u0811": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 26.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "crime and drama completist, watches episodes in order",
+   "billing": [
+    {
+     "when": "2026-08-26T15:56:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 12.5,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": [
+    {
+     "when": "2026-09-26T07:08:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0817": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": []
+  }
+ },
+ "u0818": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 12.7,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": [
+    {
+     "when": "2026-08-26T06:27:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 26.2,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": [
+    {
+     "when": "2026-09-26T20:28:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0824": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 24.7,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": []
+  }
+ },
+ "u0829": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 21.8,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": [
+    {
+     "when": "2026-08-06T18:23:00",
+     "kind": "renewal",
+     "outcome": "failed",
+     "failure_reason": "gateway_timeout",
+     "attempt_number": 1,
+     "plan": "monthly"
+    },
+    {
+     "when": "2026-08-08T19:24:00",
+     "kind": "retry",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 2,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 18.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": [
+    {
+     "when": "2026-09-06T18:47:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0915": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 38.7,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": [
+    {
+     "when": "2026-08-18T13:28:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0921": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 29.1,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    18,
+    45
+   ],
+   "target_watch_hours": 139.9,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": []
+  }
+ },
+ "u0930": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 31.7,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "weekend binger: few sessions, several episodes back to back",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    9
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": [
+    {
+     "when": "2026-09-25T15:00:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "annual"
+    }
+   ]
+  }
+ },
+ "u0934": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 32.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "crime and drama completist, watches episodes in order",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 13.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  }
+ },
+ "u0938": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    18,
+    45
+   ],
+   "target_watch_hours": 140.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 2.6,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "lunch-break phone viewer, short clips and highlights",
+   "billing": [
+    {
+     "when": "2026-09-13T12:30:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "annual"
+    }
+   ]
+  }
+ },
+ "u0939": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 7.8,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": true,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": [
+    {
+     "when": "2026-08-23T11:41:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 31.6,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "one-off visitor: short visits, mostly browsing",
+   "billing": [
+    {
+     "when": "2026-09-23T18:28:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ },
+ "u0941": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "sports-first viewer, Saturday football and highlights",
+   "billing": []
+  }
+ },
+ "u0946": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    4,
+    18
+   ],
+   "target_watch_hours": 20.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "evening reality fan who watches new episodes the day they drop",
+   "billing": []
+  }
+ },
+ "u0957": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    20
+   ],
+   "target_watch_hours": 57.1,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "sports-first viewer, Saturday football and highlights",
+   "billing": []
+  }
+ },
+ "u0983": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 17.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": []
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 8.3,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "annual",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "sports-first viewer, Saturday football and highlights",
+   "billing": []
+  }
+ },
+ "u0985": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": true,
+   "zapper": false,
+   "persona_note": "crime and drama completist, watches episodes in order",
+   "billing": []
+  }
+ },
+ "u0994": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "registered",
+   "is_video_user": false,
+   "sessions_range": [
+    1,
+    6
+   ],
+   "target_watch_hours": 0.0,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": null,
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "background Live-TV viewer, zaps between channels",
+   "billing": []
+  }
+ },
+ "u1000": {
+  "AUG_2026": {
+   "period": "AUG_2026",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    8,
+    28
+   ],
+   "target_watch_hours": 41.4,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": [
+    {
+     "when": "2026-08-04T12:55:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  },
+  "CURRENT": {
+   "period": "CURRENT",
+   "segment_at_start": "subscribed",
+   "is_video_user": true,
+   "sessions_range": [
+    12,
+    32
+   ],
+   "target_watch_hours": 94.6,
+   "must_register_on_day": null,
+   "must_subscribe_on_day": null,
+   "plan": "monthly",
+   "svod_until_day": null,
+   "voice_fan": false,
+   "premiere_fans": [],
+   "football_fan": false,
+   "zapper": false,
+   "persona_note": "family TV evening viewer, long sessions after 20:00",
+   "billing": [
+    {
+     "when": "2026-09-04T17:03:00",
+     "kind": "renewal",
+     "outcome": "received",
+     "failure_reason": null,
+     "attempt_number": 1,
+     "plan": "monthly"
+    }
+   ]
+  }
+ }
+}

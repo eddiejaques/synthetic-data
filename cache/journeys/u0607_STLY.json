@@ -1,0 +1,101 @@
+{
+ "user_id": "u0607",
+ "period": "STLY",
+ "source": "fallback",
+ "attempts": 2,
+ "violations": [
+  "session 2 (day 13 18:00) step 3 [paywall]: wall for 'joyn_fack_ju_gohte' must follow a click on it or its detail page"
+ ],
+ "journey": {
+  "sessions": [
+   {
+    "day": 6,
+    "start": "11:03",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_live_sports_action",
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_live_sports_action",
+       "title": "joyn_ran_fighting_die_k_o_highlights"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "registration_wall",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": "joyn_ran_fighting_die_k_o_highlights",
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_live_sports_action",
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_live_sports_action",
+       "title": "joyn_the_voice"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 10,
+    "start": "17:00",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_dramen_meisterwerke",
+       "lane_beliebte_serien",
+       "lane_top_reality_momente"
+      ],
+      "click": {
+       "lane": "lane_top_reality_momente",
+       "title": "joyn_das_sommerhaus_der_stars_highlights"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ }
+}

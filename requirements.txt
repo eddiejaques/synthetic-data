@@ -1,0 +1,10 @@
+google-genai>=1.30
+pydantic>=2.8
+python-dotenv>=1.0
+PyYAML>=6.0
+tzdata>=2024.1
+requests>=2.31
+pytest>=8.0
+pytest-asyncio>=0.23
+# optional: only for `export --sheets SHEET_ID`
+gspread>=6.0

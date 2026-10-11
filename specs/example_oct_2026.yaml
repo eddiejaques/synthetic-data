@@ -1,0 +1,29 @@
+# Scenario: extend the time frame by one month. October 2026 gets 300 brand-new users, and
+# 350 existing users come back (picked from anyone whose last month ended before October,
+# favouring recent, engaged and paying users). Returning users keep their id, devices and
+# account state; some anonymous ones register and some registered ones subscribe.
+run_id: oct_2026
+returning_from: all
+periods:
+  - {name: OCT_2026, start: 2026-10-01, end: 2026-10-31, new_users: 300, returning_users: 350}
+targets:
+  mvu_ratio: 0.6                   # share of active users who watch video this month
+  segments: {anonymous: 0.65, registered: 0.27, subscribed: 0.08}     # new users only
+  platforms: {ott: 0.42, android: 0.20, ios: 0.20, web: 0.18}         # new users only
+lifecycle:
+  returning_register_rate: 0.06    # anonymous returners who register this month
+  returning_subscribe_rate: 0.04   # registered returners who subscribe this month
+stories:
+  premieres:                       # adds a new season to an existing show (1 Gemini call)
+    - {title_id: joyn_gntm, date: 2026-10-15, fan_share: 0.30, episodes: 8, cadence_days: [0, 3], uplift_min: 1.5}
+  payment_incidents:
+    - {date: 2026-10-21, multiplier: 5.0, tol: 1.0, min_count: 5}
+  campaigns:                       # absolute dates; title_id ties the flight to sessions that watch it
+    - {key: launch_gntm, objective: launch, topic: gntm, title_id: joyn_gntm, touch_rate: 0.5,
+       channels: [paid_social, online_video, crm_push, crm_email], start: 2026-10-10, end: 2026-10-31,
+       contents: [video15s_gntm_a, video15s_gntm_b, static_gntm_cast, push_gntm_new_episode, email_gntm_launch]}
+    - {key: service_payment_update, objective: service, topic: payment, channels: [crm_email],
+       start: 2026-10-22, end: 2026-10-31, contents: [email_update_card], name: 2026_10_service_payment_oct}
+  # ott_pair: [CURRENT, OCT_2026]  # optional: plant the ott-share tilt between two periods
+marketing:
+  tiktok_share_of_paid_social: 0.45

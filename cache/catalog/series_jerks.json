@@ -1,0 +1,78 @@
+{
+ "source": "llm",
+ "key": "GEMINI_API_KEY_3",
+ "data": {
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Der Heiratsantrag",
+      "duration_s": 1650
+     },
+     {
+      "episode": 2,
+      "title": "Das neue Auto",
+      "duration_s": 1580
+     },
+     {
+      "episode": 3,
+      "title": "Der Seitensprung",
+      "duration_s": 1720
+     },
+     {
+      "episode": 4,
+      "title": "Kindergeburtstag",
+      "duration_s": 1600
+     },
+     {
+      "episode": 5,
+      "title": "Die Beerdigung",
+      "duration_s": 1750
+     },
+     {
+      "episode": 6,
+      "title": "Im Urlaub",
+      "duration_s": 1680
+     }
+    ]
+   },
+   {
+    "season": 2,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Alte Liebe",
+      "duration_s": 1620
+     },
+     {
+      "episode": 2,
+      "title": "Der Veganer",
+      "duration_s": 1590
+     },
+     {
+      "episode": 3,
+      "title": "Schulfreunde",
+      "duration_s": 1710
+     },
+     {
+      "episode": 4,
+      "title": "Das Geheimnis",
+      "duration_s": 1660
+     },
+     {
+      "episode": 5,
+      "title": "Fitnesswahn",
+      "duration_s": 1550
+     },
+     {
+      "episode": 6,
+      "title": "Der Handwerker",
+      "duration_s": 1790
+     }
+    ]
+   }
+  ]
+ }
+}

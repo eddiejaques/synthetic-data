@@ -1,0 +1,74 @@
+{
+ "run_id": "aug_2025_2026",
+ "returning_from": "all",
+ "periods": [
+  {
+   "name": "AUG_2025",
+   "start": "2025-08-01",
+   "end": "2025-08-31",
+   "new_users": 450,
+   "returning_users": 0
+  },
+  {
+   "name": "AUG_2026",
+   "start": "2026-08-01",
+   "end": "2026-08-31",
+   "new_users": 300,
+   "returning_users": 200
+  },
+  {
+   "name": "CURRENT",
+   "start": "2026-09-01",
+   "end": "2026-09-30",
+   "new_users": 0,
+   "returning_users": 150
+  }
+ ],
+ "targets": {
+  "mvu_ratio": 0.6
+ },
+ "stories": {
+  "ott_pair": [
+   "AUG_2025",
+   "AUG_2026"
+  ]
+ },
+ "marketing": {
+  "acquisition_mix": {
+   "AUG_2025": {
+    "organic_search": 0.22,
+    "direct": 0.15,
+    "paid_search_brand": 0.08,
+    "paid_search_generic": 0.06,
+    "paid_social": 0.1,
+    "display": 0.09,
+    "online_video": 0.06,
+    "referral": 0.06,
+    "tv_promo": 0.07,
+    "organic_social": 0.04,
+    "app_store": 0.05,
+    "affiliate": 0.02
+   },
+   "AUG_2026": {
+    "organic_search": 0.2,
+    "direct": 0.11,
+    "paid_search_brand": 0.08,
+    "paid_search_generic": 0.06,
+    "paid_social": 0.19,
+    "display": 0.04,
+    "online_video": 0.08,
+    "referral": 0.05,
+    "tv_promo": 0.08,
+    "organic_social": 0.05,
+    "app_store": 0.04,
+    "affiliate": 0.02
+   }
+  },
+  "tiktok_share_of_paid_social": {
+   "AUG_2025": 0.0,
+   "AUG_2026": 0.4,
+   "CURRENT": 0.4
+  }
+ },
+ "lifecycle": {}
+}

@@ -1,0 +1,25 @@
+# August 2025 + August 2026, with realistic August -> September 2026 retention.
+# - AUG_2025: 450 new users (nobody can return into it: every existing user's last month is later).
+# - AUG_2026: 300 new users + 200 returning (from Sep-2025-only users and this batch's Aug 2025 users).
+# - CURRENT (Sep 2026): 150 returning user-months added, mostly August 2026 users (recency is favoured).
+#   The original Sep 2026 users and events are untouched; Sep 2026 MAU becomes 600 + 150.
+run_id: aug_2025_2026
+returning_from: all
+periods:
+  - {name: AUG_2025, start: 2025-08-01, end: 2025-08-31, new_users: 450, returning_users: 0}
+  - {name: AUG_2026, start: 2026-08-01, end: 2026-08-31, new_users: 300, returning_users: 200}
+  - {name: CURRENT,  start: 2026-09-01, end: 2026-09-30, new_users: 0,   returning_users: 150}
+targets:
+  mvu_ratio: 0.6
+stories:
+  ott_pair: [AUG_2025, AUG_2026]       # plant the ott-share tilt (+8pp) for the August YoY pair too
+marketing:
+  # Same YoY channel story as September: 2025 = no TikTok, more display; 2026 = more paid social.
+  acquisition_mix:
+    AUG_2025: {organic_search: 0.22, direct: 0.15, paid_search_brand: 0.08, paid_search_generic: 0.06,
+               paid_social: 0.10, display: 0.09, online_video: 0.06, referral: 0.06, tv_promo: 0.07,
+               organic_social: 0.04, app_store: 0.05, affiliate: 0.02}
+    AUG_2026: {organic_search: 0.20, direct: 0.11, paid_search_brand: 0.08, paid_search_generic: 0.06,
+               paid_social: 0.19, display: 0.04, online_video: 0.08, referral: 0.05, tv_promo: 0.08,
+               organic_social: 0.05, app_store: 0.04, affiliate: 0.02}
+  tiktok_share_of_paid_social: {AUG_2025: 0.0, AUG_2026: 0.40, CURRENT: 0.40}

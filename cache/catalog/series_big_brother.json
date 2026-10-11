@@ -1,0 +1,113 @@
+{
+ "source": "llm",
+ "key": "GEMINI_API_KEY_1",
+ "data": {
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Der Einzug ins Haus",
+      "duration_s": 5400
+     },
+     {
+      "episode": 2,
+      "title": "Die erste große Prüfung",
+      "duration_s": 4800
+     },
+     {
+      "episode": 3,
+      "title": "Tränen und Intrigen",
+      "duration_s": 5100
+     },
+     {
+      "episode": 4,
+      "title": "Das Geheimnis des Kellers",
+      "duration_s": 4950
+     },
+     {
+      "episode": 5,
+      "title": "Wochenaufgabe im Chaos",
+      "duration_s": 5200
+     },
+     {
+      "episode": 6,
+      "title": "Der Streit eskaliert",
+      "duration_s": 4700
+     },
+     {
+      "episode": 7,
+      "title": "Liebeswirrungen im Container",
+      "duration_s": 5300
+     },
+     {
+      "episode": 8,
+      "title": "Die Entscheidung naht",
+      "duration_s": 5000
+     },
+     {
+      "episode": 9,
+      "title": "Das große Wiedersehen",
+      "duration_s": 5900
+     }
+    ]
+   },
+   {
+    "season": 2,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Neue Gesichter im Container",
+      "duration_s": 5200
+     },
+     {
+      "episode": 2,
+      "title": "Der Kampf um die Vorherrschaft",
+      "duration_s": 4900
+     },
+     {
+      "episode": 3,
+      "title": "Schock am Morgen",
+      "duration_s": 5100
+     },
+     {
+      "episode": 4,
+      "title": "Die Masken fallen",
+      "duration_s": 4850
+     },
+     {
+      "episode": 5,
+      "title": "Taktik und Verrat",
+      "duration_s": 5300
+     },
+     {
+      "episode": 6,
+      "title": "Tränen der Enttäuschung",
+      "duration_s": 4750
+     },
+     {
+      "episode": 7,
+      "title": "Das Geheimnis gelüftet",
+      "duration_s": 5400
+     },
+     {
+      "episode": 8,
+      "title": "Rauswurf aus dem Paradies",
+      "duration_s": 5050
+     },
+     {
+      "episode": 9,
+      "title": "Der Kampf um das Ticket ins Finale",
+      "duration_s": 5600
+     },
+     {
+      "episode": 10,
+      "title": "Die Stunde der Wahrheit",
+      "duration_s": 5800
+     }
+    ]
+   }
+  ]
+ }
+}

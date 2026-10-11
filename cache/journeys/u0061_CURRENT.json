@@ -1,0 +1,165 @@
+{
+ "user_id": "u0061",
+ "period": "CURRENT",
+ "source": "llm",
+ "attempts": 1,
+ "key": "GEMINI_API_KEY_2",
+ "journey": {
+  "sessions": [
+   {
+    "day": 2,
+    "start": "12:30",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_shows_highlights",
+       "lane_jetzt_live_im_stream",
+       "lane_blockbuster_top_filme",
+       "lane_reality_tv_megahits",
+       "lane_comedy_highlights",
+       "lane_dramen_meisterwerke",
+       "lane_crime_spannung",
+       "lane_live_sports_action",
+       "lane_news_reportagen",
+       "lane_nur_auf_joyn_exklusiv",
+       "lane_beliebte_serien",
+       "lane_top_reality_momente",
+       "lane_empfohlen_fur_dich"
+      ],
+      "click": {
+       "lane": "lane_beliebte_shows_highlights",
+       "title": "joyn_gntm"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_shows_highlights",
+       "lane_jetzt_live_im_stream",
+       "lane_blockbuster_top_filme",
+       "lane_reality_tv_megahits",
+       "lane_comedy_highlights",
+       "lane_dramen_meisterwerke",
+       "lane_crime_spannung",
+       "lane_live_sports_action",
+       "lane_news_reportagen",
+       "lane_nur_auf_joyn_exklusiv",
+       "lane_beliebte_serien",
+       "lane_top_reality_momente",
+       "lane_empfohlen_fur_dich"
+      ],
+      "click": {
+       "lane": "lane_reality_tv_megahits",
+       "title": "joyn_das_sommerhaus_der_stars_highlights"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 9,
+    "start": "13:15",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_shows_highlights",
+       "lane_jetzt_live_im_stream",
+       "lane_blockbuster_top_filme",
+       "lane_reality_tv_megahits",
+       "lane_comedy_highlights",
+       "lane_dramen_meisterwerke",
+       "lane_crime_spannung",
+       "lane_live_sports_action",
+       "lane_news_reportagen",
+       "lane_nur_auf_joyn_exklusiv",
+       "lane_beliebte_serien",
+       "lane_top_reality_momente",
+       "lane_empfohlen_fur_dich"
+      ],
+      "click": {
+       "lane": "lane_live_sports_action",
+       "title": "joyn_ran_football"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_beliebte_shows_highlights",
+       "lane_jetzt_live_im_stream",
+       "lane_blockbuster_top_filme",
+       "lane_reality_tv_megahits",
+       "lane_comedy_highlights",
+       "lane_dramen_meisterwerke",
+       "lane_crime_spannung",
+       "lane_live_sports_action",
+       "lane_news_reportagen",
+       "lane_nur_auf_joyn_exklusiv",
+       "lane_beliebte_serien",
+       "lane_top_reality_momente",
+       "lane_empfohlen_fur_dich"
+      ],
+      "click": {
+       "lane": "lane_blockbuster_top_filme",
+       "title": "joyn_der_schuh_des_manitu"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "paywall",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": "joyn_der_schuh_des_manitu",
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ }
+}

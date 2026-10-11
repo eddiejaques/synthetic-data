@@ -1,0 +1,47 @@
+{
+ "user_id": "u0854",
+ "period": "CURRENT",
+ "source": "fallback",
+ "attempts": 2,
+ "violations": [
+  "session 1 (day 12 20:15) step 3 [paywall]: wall for 'joyn_fack_ju_gohte' must follow a click on it or its detail page",
+  "session 1 (day 12 20:15) step 8 [paywall]: wall for 'joyn_jerks' must follow a click on it or its detail page"
+ ],
+ "journey": {
+  "sessions": [
+   {
+    "day": 5,
+    "start": "22:05",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_jetzt_live_im_stream",
+       "lane_beliebte_shows_highlights",
+       "lane_news_reportagen",
+       "lane_crime_spannung"
+      ],
+      "click": {
+       "lane": "lane_beliebte_shows_highlights",
+       "title": "joyn_gntm"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ }
+}

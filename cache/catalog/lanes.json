@@ -1,0 +1,218 @@
+{
+ "source": "llm",
+ "key": "GEMINI_API_KEY_1",
+ "data": {
+  "lanes": [
+   {
+    "lane_name": "Beliebte Shows & Highlights",
+    "lane_type": "hero_lane",
+    "screens": [
+     "home",
+     "category"
+    ],
+    "title_ids": [
+     "joyn_gntm",
+     "joyn_the_voice",
+     "joyn_big_brother",
+     "joyn_jerks",
+     "joyn_sloborn",
+     "joyn_fack_ju_gohte",
+     "joyn_ncis_hawaii",
+     "joyn_das_sommerhaus_der_stars_highlights",
+     "joyn_k1_magazin",
+     "joyn_ran_football",
+     "joyn_das_leben_der_anderen"
+    ]
+   },
+   {
+    "lane_name": "Jetzt Live im Stream",
+    "lane_type": "hero_lane",
+    "screens": [
+     "home",
+     "live_tv"
+    ],
+    "title_ids": [
+     "joyn_big_brother_live",
+     "joyn_sat1_live",
+     "joyn_prosieben_live",
+     "joyn_ran_football_live"
+    ]
+   },
+   {
+    "lane_name": "Blockbuster & Top Filme",
+    "lane_type": "big_teaser",
+    "screens": [
+     "home",
+     "category"
+    ],
+    "title_ids": [
+     "joyn_fack_ju_gohte",
+     "joyn_der_schuh_des_manitu",
+     "joyn_manta_manta",
+     "joyn_das_leben_der_anderen",
+     "joyn_im_westen_nichts_neues",
+     "joyn_der_baader_meinhof_komplex"
+    ]
+   },
+   {
+    "lane_name": "Reality TV Megahits",
+    "lane_type": "big_teaser",
+    "screens": [
+     "home",
+     "category"
+    ],
+    "title_ids": [
+     "joyn_gntm",
+     "joyn_big_brother",
+     "joyn_the_voice",
+     "joyn_das_sommerhaus_der_stars_highlights",
+     "joyn_promi_big_brother_die_besten_momente",
+     "joyn_paradise_hotel_skandale_und_tranen",
+     "joyn_big_brother_live"
+    ]
+   },
+   {
+    "lane_name": "Mehr wie das",
+    "lane_type": "standard_lane",
+    "screens": [
+     "detail"
+    ],
+    "title_ids": [
+     "joyn_jerks",
+     "joyn_fack_ju_gohte",
+     "joyn_der_schuh_des_manitu",
+     "joyn_manta_manta"
+    ]
+   },
+   {
+    "lane_name": "Comedy Highlights",
+    "lane_type": "standard_lane",
+    "screens": [
+     "home",
+     "category"
+    ],
+    "title_ids": [
+     "joyn_jerks",
+     "joyn_fack_ju_gohte",
+     "joyn_der_schuh_des_manitu",
+     "joyn_manta_manta",
+     "joyn_prosieben_live"
+    ]
+   },
+   {
+    "lane_name": "Dramen & Meisterwerke",
+    "lane_type": "standard_lane",
+    "screens": [
+     "home",
+     "category"
+    ],
+    "title_ids": [
+     "joyn_sloborn",
+     "joyn_das_leben_der_anderen",
+     "joyn_im_westen_nichts_neues",
+     "joyn_der_baader_meinhof_komplex"
+    ]
+   },
+   {
+    "lane_name": "Crime & Spannung",
+    "lane_type": "standard_lane",
+    "screens": [
+     "home",
+     "category"
+    ],
+    "title_ids": [
+     "joyn_ncis_hawaii",
+     "joyn_tatort_berlin_der_feind_im_schatten",
+     "joyn_wilsberg_ekstase"
+    ]
+   },
+   {
+    "lane_name": "Live Sports Action",
+    "lane_type": "standard_lane",
+    "screens": [
+     "home",
+     "live_tv",
+     "category"
+    ],
+    "title_ids": [
+     "joyn_ran_football",
+     "joyn_ran_football_live",
+     "joyn_ran_basketball_spielzusammenfassung",
+     "joyn_ran_fighting_die_k_o_highlights"
+    ]
+   },
+   {
+    "lane_name": "News & Reportagen",
+    "lane_type": "standard_lane",
+    "screens": [
+     "home",
+     "category"
+    ],
+    "title_ids": [
+     "joyn_k1_magazin",
+     "joyn_tagesschau_jahresruckblick",
+     "joyn_newstime_spezial",
+     "joyn_sat1_live"
+    ]
+   },
+   {
+    "lane_name": "Nur auf Joyn: Exklusiv",
+    "lane_type": "standard_lane",
+    "screens": [
+     "home",
+     "category"
+    ],
+    "title_ids": [
+     "joyn_jerks",
+     "joyn_sloborn",
+     "joyn_fack_ju_gohte",
+     "joyn_das_leben_der_anderen",
+     "joyn_im_westen_nichts_neues"
+    ]
+   },
+   {
+    "lane_name": "Beliebte Serien",
+    "lane_type": "standard_lane",
+    "screens": [
+     "home",
+     "category"
+    ],
+    "title_ids": [
+     "joyn_ncis_hawaii",
+     "joyn_tatort_berlin_der_feind_im_schatten",
+     "joyn_wilsberg_ekstase",
+     "joyn_jerks",
+     "joyn_sloborn"
+    ]
+   },
+   {
+    "lane_name": "Top Reality Momente",
+    "lane_type": "standard_lane",
+    "screens": [
+     "home",
+     "category"
+    ],
+    "title_ids": [
+     "joyn_promi_big_brother_die_besten_momente",
+     "joyn_das_sommerhaus_der_stars_highlights",
+     "joyn_paradise_hotel_skandale_und_tranen",
+     "joyn_big_brother"
+    ]
+   },
+   {
+    "lane_name": "Empfohlen für Dich",
+    "lane_type": "standard_lane",
+    "screens": [
+     "home"
+    ],
+    "title_ids": [
+     "joyn_gntm",
+     "joyn_the_voice",
+     "joyn_fack_ju_gohte",
+     "joyn_ncis_hawaii",
+     "joyn_ran_football"
+    ]
+   }
+  ]
+ }
+}

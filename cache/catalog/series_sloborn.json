@@ -1,0 +1,98 @@
+{
+ "source": "llm",
+ "key": "GEMINI_API_KEY_1",
+ "data": {
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Das Boot",
+      "duration_s": 2650
+     },
+     {
+      "episode": 2,
+      "title": "Die Tote am Strand",
+      "duration_s": 2710
+     },
+     {
+      "episode": 3,
+      "title": "Verdacht",
+      "duration_s": 2580
+     },
+     {
+      "episode": 4,
+      "title": "Ausnahmezustand",
+      "duration_s": 2620
+     },
+     {
+      "episode": 5,
+      "title": "Die Quarantäne",
+      "duration_s": 2750
+     },
+     {
+      "episode": 6,
+      "title": "Fieber",
+      "duration_s": 2590
+     },
+     {
+      "episode": 7,
+      "title": "Vertrauen",
+      "duration_s": 2680
+     },
+     {
+      "episode": 8,
+      "title": "Die Hoffnung stirbt zuletzt",
+      "duration_s": 2790
+     }
+    ]
+   },
+   {
+    "season": 2,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Das neue Normal",
+      "duration_s": 2600
+     },
+     {
+      "episode": 2,
+      "title": "Rückkehr",
+      "duration_s": 2700
+     },
+     {
+      "episode": 3,
+      "title": "Schwarzer Markt",
+      "duration_s": 2550
+     },
+     {
+      "episode": 4,
+      "title": "Gefährliche Beute",
+      "duration_s": 2640
+     },
+     {
+      "episode": 5,
+      "title": "Verrat",
+      "duration_s": 2720
+     },
+     {
+      "episode": 6,
+      "title": "Die Insel brennt",
+      "duration_s": 2760
+     },
+     {
+      "episode": 7,
+      "title": "Entscheidung",
+      "duration_s": 2580
+     },
+     {
+      "episode": 8,
+      "title": "Neuanfang",
+      "duration_s": 2690
+     }
+    ]
+   }
+  ]
+ }
+}

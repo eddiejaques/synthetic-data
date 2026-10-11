@@ -1,0 +1,78 @@
+{
+ "user_id": "u1384",
+ "period": "AUG_2025",
+ "source": "fallback",
+ "attempts": 2,
+ "violations": [
+  "session 1 (day 2 19:00) step 3 [registration_wall]: wall for 'joyn_tatort_berlin_der_feind_im_schatten' must follow a click on it or its detail page",
+  "session 2 (day 9 20:15) step 3 [registration_wall]: wall for 'joyn_ncis_hawaii' must follow a click on it or its detail page",
+  "session 2 (day 9 20:15) step 6 [paywall]: wall for 'joyn_im_westen_nichts_neues' must follow a click on it or its detail page"
+ ],
+ "journey": {
+  "sessions": [
+   {
+    "day": 17,
+    "start": "16:59",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "live_tv",
+      "lanes": [
+       "lane_live_sports_action",
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_live_sports_action",
+       "title": "joyn_the_voice"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   },
+   {
+    "day": 17,
+    "start": "18:05",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_comedy_highlights",
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_jetzt_live_im_stream",
+       "title": "joyn_tagesschau_jahresruckblick"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ },
+ "brief_hash": "5476d078990e5a1a"
+}

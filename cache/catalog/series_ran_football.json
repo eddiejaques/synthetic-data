@@ -1,0 +1,123 @@
+{
+ "source": "llm",
+ "key": "GEMINI_API_KEY_3",
+ "data": {
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Die schönsten Tore des Spieltags",
+      "duration_s": 450
+     },
+     {
+      "episode": 2,
+      "title": "Trainer im Interview nach dem Abpfiff",
+      "duration_s": 320
+     },
+     {
+      "episode": 3,
+      "title": "Die besten Paraden der Torhüter",
+      "duration_s": 510
+     },
+     {
+      "episode": 4,
+      "title": "Taktik-Analyse der Experten",
+      "duration_s": 600
+     },
+     {
+      "episode": 5,
+      "title": "Die hitzigsten Zweikämpfe im Rückblick",
+      "duration_s": 410
+     },
+     {
+      "episode": 6,
+      "title": "Stimmung in der Fankurve",
+      "duration_s": 350
+     },
+     {
+      "episode": 7,
+      "title": "Die umstrittensten Schiedsrichter-Entscheidungen",
+      "duration_s": 550
+     },
+     {
+      "episode": 8,
+      "title": "Highlights der Verlängerung",
+      "duration_s": 480
+     },
+     {
+      "episode": 9,
+      "title": "Der Weg zum entscheidenden Treffer",
+      "duration_s": 390
+     },
+     {
+      "episode": 10,
+      "title": "Stimmen aus der Kabine",
+      "duration_s": 430
+     }
+    ]
+   },
+   {
+    "season": 2,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Auftakt nach Maß: Die ersten Highlights",
+      "duration_s": 480
+     },
+     {
+      "episode": 2,
+      "title": "Das Traumtor aus der Distanz",
+      "duration_s": 310
+     },
+     {
+      "episode": 3,
+      "title": "Packende Schlussphase im Fokus",
+      "duration_s": 620
+     },
+     {
+      "episode": 4,
+      "title": "Der Jubel der Siegermannschaft",
+      "duration_s": 340
+     },
+     {
+      "episode": 5,
+      "title": "Spieler des Spiels im Porträt",
+      "duration_s": 500
+     },
+     {
+      "episode": 6,
+      "title": "Die emotionalsten Momente des Wochenendes",
+      "duration_s": 450
+     },
+     {
+      "episode": 7,
+      "title": "Rückpass-Drama und andere Patzer",
+      "duration_s": 380
+     },
+     {
+      "episode": 8,
+      "title": "Chancenwucher: Alle vergebenen Möglichkeiten",
+      "duration_s": 530
+     },
+     {
+      "episode": 9,
+      "title": "Pressekonferenz nach dem Topspiel",
+      "duration_s": 670
+     },
+     {
+      "episode": 10,
+      "title": "Die spektakulärsten Grätschen",
+      "duration_s": 300
+     },
+     {
+      "episode": 11,
+      "title": "Abpfiff und Ekstase im Stadion",
+      "duration_s": 410
+     }
+    ]
+   }
+  ]
+ }
+}

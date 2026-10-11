@@ -1,0 +1,46 @@
+{
+ "user_id": "u1268",
+ "period": "AUG_2025",
+ "source": "fallback",
+ "attempts": 2,
+ "violations": [
+  "session 1 (day 12 20:15) step 5 [detail]: click on 'joyn_ran_football_live' must open player, not detail",
+  "session 2 (day 18 18:30) step 4 [registration_wall]: SVOD content for a anonymous user must show paywall, not registration_wall"
+ ],
+ "journey": {
+  "sessions": [
+   {
+    "day": 30,
+    "start": "15:23",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_comedy_highlights",
+       "lane_jetzt_live_im_stream"
+      ],
+      "click": {
+       "lane": "lane_comedy_highlights",
+       "title": "joyn_manta_manta"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ },
+ "brief_hash": "41e6f5c82189c692"
+}

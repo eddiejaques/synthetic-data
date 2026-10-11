@@ -1,0 +1,15 @@
+.env
+.env.rtf
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+out/
+scratch/
+cache_offline/
+logs_offline/
+out_offline/
+.DS_Store
+.upload_state/
+cache/**/*.tmp

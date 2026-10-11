@@ -1,0 +1,113 @@
+{
+ "source": "llm",
+ "key": "GEMINI_API_KEY_3",
+ "data": {
+  "items": [
+   {
+    "title": "Das Sommerhaus der Stars - Highlights",
+    "asset_type": "compilation",
+    "genre": "Reality TV",
+    "licence_type": "AVOD",
+    "duration_s": 650
+   },
+   {
+    "title": "Fack ju Göhte",
+    "asset_type": "movie",
+    "genre": "Comedy",
+    "licence_type": "SVOD",
+    "duration_s": 7100
+   },
+   {
+    "title": "Das Leben der Anderen",
+    "asset_type": "movie",
+    "genre": "Drama",
+    "licence_type": "SVOD",
+    "duration_s": 7800
+   },
+   {
+    "title": "Tagesschau Jahresrückblick",
+    "asset_type": "compilation",
+    "genre": "News",
+    "licence_type": "AVOD",
+    "duration_s": 900
+   },
+   {
+    "title": "ran Basketball - Spielzusammenfassung",
+    "asset_type": "compilation",
+    "genre": "Live Sports",
+    "licence_type": "AVOD",
+    "duration_s": 450
+   },
+   {
+    "title": "Tatort: Berlin - Der Feind im Schatten",
+    "asset_type": "movie",
+    "genre": "Crime",
+    "licence_type": "RVOD",
+    "duration_s": 5400
+   },
+   {
+    "title": "Promi Big Brother - Die besten Momente",
+    "asset_type": "compilation",
+    "genre": "Reality TV",
+    "licence_type": "AVOD",
+    "duration_s": 600
+   },
+   {
+    "title": "Der Schuh des Manitu",
+    "asset_type": "movie",
+    "genre": "Comedy",
+    "licence_type": "SVOD",
+    "duration_s": 5600
+   },
+   {
+    "title": "Im Westen nichts Neues",
+    "asset_type": "movie",
+    "genre": "Drama",
+    "licence_type": "SVOD",
+    "duration_s": 7500
+   },
+   {
+    "title": "Newstime Spezial",
+    "asset_type": "compilation",
+    "genre": "News",
+    "licence_type": "AVOD",
+    "duration_s": 300
+   },
+   {
+    "title": "ran Fighting - Die K.O. Highlights",
+    "asset_type": "compilation",
+    "genre": "Live Sports",
+    "licence_type": "RVOD",
+    "duration_s": 750
+   },
+   {
+    "title": "Wilsberg: Ekstase",
+    "asset_type": "movie",
+    "genre": "Crime",
+    "licence_type": "AVOD",
+    "duration_s": 5400
+   },
+   {
+    "title": "Paradise Hotel - Skandale und Tränen",
+    "asset_type": "compilation",
+    "genre": "Reality TV",
+    "licence_type": "RVOD",
+    "duration_s": 500
+   },
+   {
+    "title": "Manta, Manta",
+    "asset_type": "movie",
+    "genre": "Comedy",
+    "licence_type": "AVOD",
+    "duration_s": 5500
+   },
+   {
+    "title": "Der Baader Meinhof Komplex",
+    "asset_type": "movie",
+    "genre": "Drama",
+    "licence_type": "SVOD",
+    "duration_s": 7800
+   }
+  ]
+ }
+}

@@ -1,0 +1,9 @@
+# Scenario: 1,000 more users in the SAME time frame as the base (Sep 2025 + Sep 2026).
+# Mirrors the base shape: 500 new users in STLY, 500 new users in CURRENT, and 100 of this
+# batch's STLY users come back in CURRENT. The base users are untouched.
+run_id: more_users_sept
+returning_from: batch          # returning users come only from this batch (base keeps its own 100)
+periods:
+  - {name: STLY,    start: 2025-09-01, end: 2025-09-30, new_users: 500, returning_users: 0}
+  - {name: CURRENT, start: 2026-09-01, end: 2026-09-30, new_users: 500, returning_users: 100}
+# targets default to config.yaml (MVU/MAU 0.6, 60/30/10 segments, 40/20/20/20 platforms)

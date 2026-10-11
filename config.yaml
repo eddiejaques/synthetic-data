@@ -1,0 +1,194 @@
+# Joyn synthetic event dataset — simulation + LLM config.
+# Every number the validator checks lives here. Change it here, not in code.
+
+seed: 42
+
+paths:
+  cache: cache
+  logs: logs
+  out: out
+
+gemini:
+  # Model comes from env GEMINI_MODEL; this is only the fallback.
+  # CONFIRM the string against client.models.list() for your keys before a full run.
+  model: gemini-3.5-flash-lite
+  concurrency: 4
+  # Per-key limits. Set these to the quotas AI Studio shows for YOUR keys and model.
+  rpm: 15
+  rpd: 500             # observed AI Studio daily limit per key for this model
+  per_key_overrides: {}          # e.g. {GEMINI_API_KEY_3: {rpm: 30, rpd: 1500}}
+  daily_reset_tz: America/Los_Angeles   # AI Studio daily quotas reset at midnight Pacific
+  temperature_catalog: 0.3
+  temperature_journeys: 0.9
+  max_output_tokens_per_call: 16000
+  max_output_tokens_total: 8000000      # cost guard across the whole run
+  request_timeout_s: 180
+  backoff_base_s: 2.0
+  backoff_max_s: 120.0
+  max_attempts_per_job: 8               # 429/5xx re-queues before giving up on a job
+
+periods:
+  STLY: {start: 2025-09-01, end: 2025-09-30}
+  CURRENT: {start: 2026-09-01, end: 2026-09-30}
+
+users:
+  total: 1000
+  mau: {STLY: 500, CURRENT: 600}
+  both: 100
+  mvu_ratio: 0.60
+
+segments: {anonymous: 0.60, registered: 0.30, subscribed: 0.10}
+
+platforms: {ott: 0.40, android: 0.20, ios: 0.20, web: 0.20}
+# Cohort skew behind planted story 1 (ott up, web down YoY). Totals are forced back to
+# the overall split above, so the per-user split still validates at +-2pp.
+platform_by_cohort:
+  STLY_only:    {ott: 0.35, android: 0.21, ios: 0.21, web: 0.23}
+  CURRENT_only: {ott: 0.42, android: 0.20, ios: 0.20, web: 0.18}
+  both:         {ott: 0.40, android: 0.20, ios: 0.20, web: 0.20}
+second_device_rate: 0.15          # of registered + subscribed users
+
+lifecycle:
+  registered_in_window_share: 0.25    # of registered users, the rest registered before STLY
+  subscribed_in_window_share: 0.30    # of subscribers, the rest were already subscribed
+  plan_split: {monthly: 0.70, annual: 0.30}
+  renewal_failure_rate: 0.06
+  retry_success_rate: 0.60
+  retry_delay_days: [1, 3]
+  failure_reasons: {card_declined: 0.45, insufficient_funds: 0.30, gateway_timeout: 0.15, expired_card: 0.10}
+  transient_timeout_rate: 0.10        # auto-retried gateway timeouts on otherwise-OK payments
+  login_methods: {email: 0.55, google: 0.20, apple: 0.15, facebook: 0.10}
+  relogin_rate: 0.15                  # share of later sessions that need a fresh login
+
+prices: {monthly: 6.99, annual: 69.99, currency: EUR}
+
+timezone: Europe/Berlin
+
+diurnal:
+  # Relative weights by local hour 0..23. Weekend adds the uplift on 10..17.
+  weekday: [3,2,1.2,0.8,0.6,0.6,1,2,3,3.5,4,4.5,5,5,5,5.5,6,7.5,10,12,13,12,9,5.5]
+  weekend_daytime_uplift: 1.6
+  bundesliga_kickoffs: ["15:30", "18:30"]   # Saturdays, ran Football boost
+  tolerance_l1: 0.12          # max L1 distance between realised and target hourly share
+  nudge_minutes: 45
+
+simulation:
+  heartbeat_interval_s: 300
+  target_rows: [250000, 450000]
+  calibrate_rows_to: 340000
+  max_row_cap: 500000
+  # Batches added from spec files scale their row bounds by user-months (base keeps the totals above).
+  rows_per_user_month: {target: [227, 409], calibrate: 309, cap: 455}
+  dirty_rate: 0.015
+  # Mean monthly watch hours per video user (lognormal, heavy tail). Calibrated so the
+  # heartbeat volume lands in target_rows; expansion rescales within bounds.
+  watch_hours_mean: 30
+  watch_hours_sigma: 0.9
+  watch_scale_bounds: [0.5, 1.8]
+  sessions_per_month: {anonymous: [2, 10], registered: [4, 18], subscribed: [8, 28]}
+
+stories:
+  ott_watch_share_pp: {target: 8.0, tol: 2.0}
+  voice_premiere:
+    CURRENT: "2026-09-17"
+    STLY: "2025-09-18"
+    fan_share: {CURRENT: 0.35, STLY: 0.15}
+    week3_uplift: {CURRENT: {min: 1.8}, STLY: {min: 1.1, max: 1.8}}
+  payment_incident: {date: "2026-09-17", multiplier: 5.0, tol: 1.0, min_count: 5}
+  lane_ctr: {hero_vs_standard: 2.0, tol: 0.25, position_decay_p: 0.28}
+
+validation:
+  mvu_ratio_tol: 0.03
+  mvu_yoy: {target: 0.20, tol: 0.03}
+  split_tol_pp: 2.0
+  fallback_share_flag: 0.10
+
+# ---------------------------------------------------------------------------------------------
+# Marketing analytics layer (see MARKETING_ANALYTICS.md). Python-only: no Gemini calls.
+# ---------------------------------------------------------------------------------------------
+marketing:
+  # First-touch channel mix for users acquired in each period (before platform compatibility).
+  acquisition_mix:
+    STLY:    {organic_search: 0.22, direct: 0.15, paid_search_brand: 0.08, paid_search_generic: 0.06,
+              paid_social: 0.10, display: 0.09, online_video: 0.06, referral: 0.06, tv_promo: 0.07,
+              organic_social: 0.04, app_store: 0.05, affiliate: 0.02}
+    CURRENT: {organic_search: 0.20, direct: 0.11, paid_search_brand: 0.08, paid_search_generic: 0.06,
+              paid_social: 0.19, display: 0.04, online_video: 0.08, referral: 0.05, tv_promo: 0.08,
+              organic_social: 0.05, app_store: 0.04, affiliate: 0.02}
+  tiktok_share_of_paid_social: {STLY: 0.0, CURRENT: 0.40}    # TikTok only launched in 2026
+  # Share of return sessions that arrive with no campaign/referrer, by platform.
+  return_direct_share: {ott: 1.0, ios: 0.72, android: 0.72, web: 0.48}
+  # Mix of non-direct return sessions (eligibility by platform/segment is applied in code).
+  return_mix: {organic_search: 0.33, crm_email: 0.19, crm_push: 0.19, paid_search_brand: 0.07,
+               organic_social: 0.08, referral: 0.08, display: 0.06}
+  rules:
+    voice_campaign_touch: 0.60        # Voice sessions in the flight window that came via the launch campaign
+    football_touch: 0.30              # Saturday ran Football sessions via Bundesliga search / push
+    retargeting_touch: 0.50           # next session after an abandoned sign-up comes via retargeting
+    subscribe_last_touch: {crm_email: 0.55, paid_search_brand: 0.25}
+    payment_followup_touch: 0.80      # first session after a failed payment, from the incident email
+  campaigns:
+    - {key: launch_tvog, objective: launch, topic: tvog, channels: [paid_social, online_video, crm_push, crm_email],
+       name_suffix: {STLY: _s2, CURRENT: _s3},
+       window: {STLY: ["2025-09-15", "2025-09-30"], CURRENT: ["2026-09-10", "2026-09-30"]},
+       contents: [video15s_coaches_a, video15s_coaches_b, static_blindaudition, carousel_talents, onair_tvog_trailer]}
+    - {key: always_on_brand, objective: always_on, topic: brand, channels: [paid_search_brand],
+       terms: [joyn, joyn mediathek, joyn live tv, joyn app], contents: [rsa_brand_1, rsa_brand_2]}
+    - {key: generic_shows, objective: acquisition, topic: shows, channels: [paid_search_generic],
+       terms: [gntm stream, big brother live stream, the voice of germany 2026, ncis hawaii stream, serien kostenlos streamen],
+       contents: [rsa_shows_1, rsa_shows_2]}
+    - {key: plus_trial, objective: conversion, topic: joynplus, channels: [crm_email, paid_search_brand, paid_social],
+       terms: [joyn plus, joyn plus kosten], contents: [email_plus_offer, rsa_plus, static_plus_price]}
+    - {key: ran_bundesliga, objective: engagement, topic: ranfootball, channels: [paid_search_generic, crm_push],
+       terms: [bundesliga live stream, ran football live], contents: [rsa_ran_live, push_kickoff]}
+    - {key: retargeting_signup, objective: retargeting, topic: registration, channels: [display, paid_social],
+       contents: [banner_300x250_free, banner_728x90_free, static_signup_reminder]}
+    - {key: acquisition_broad, objective: acquisition, topic: brand, channels: [paid_social, display, online_video, affiliate],
+       contents: [video6s_bumper, static_shows_collage, banner_300x600_shows, affiliate_deal]}
+    - {key: crm_weekly, objective: retention, topic: newsletter, channels: [crm_email, crm_push],
+       contents: [newsletter_weekly, push_new_episode]}
+    - {key: tv_crosspromo, objective: crosspromo, topic: tv, channels: [tv_promo],
+       contents: [onair_spot_20s, qr_lowerthird]}
+    - {key: service_payment_update, objective: service, topic: payment, channels: [crm_email],
+       window: {CURRENT: ["2026-09-18", "2026-09-30"]}, contents: [email_update_card]}
+  # Cost model per channel: click-to-landing rate, CTR, and CPC (or CPM for display/video).
+  costs:
+    paid_search_brand:   {landing_rate: 0.88, ctr: [0.08, 0.14], cpc: [0.12, 0.30]}
+    paid_search_generic: {landing_rate: 0.85, ctr: [0.03, 0.06], cpc: [0.45, 1.10]}
+    paid_social:         {landing_rate: 0.70, ctr: [0.008, 0.016], cpc: [0.35, 0.80]}
+    display:             {landing_rate: 0.60, ctr: [0.001, 0.003], cpm: [2.5, 5.0]}
+    online_video:        {landing_rate: 0.65, ctr: [0.004, 0.009], cpm: [8.0, 14.0]}
+    affiliate:           {landing_rate: 0.80, ctr: [0.02, 0.05], cpc: [0.60, 1.20]}
+    crm_email:           {landing_rate: 0.90, open_rate: [0.22, 0.34], click_to_open: [0.08, 0.15]}
+    crm_push:            {landing_rate: 0.95, open_rate: [0.04, 0.09]}
+  stories:
+    voice_campaign_share_wk3: {min: 0.25}
+    voice_spend_wk3_vs_wk12: {min: 2.0}
+    paid_social_new_user_pp: {min: 5.0}
+    last_touch_email_brand: {min: 0.50}
+    first_touch_email_brand: {max: 0.30}
+
+# ---------------------------------------------------------------------------------------------
+# Exports and uploads
+# ---------------------------------------------------------------------------------------------
+exports:
+  # Mixpanel Project Settings -> Identity Merge. "simplified" for projects created since 2023,
+  # "original" for older projects. Decides how anonymous and logged-in events are linked.
+  mixpanel_id_merge: simplified
+
+# Upload limits used by scripts/upload_posthog.py and scripts/upload_mixpanel.py. Defaults sit below
+# the published limits; raise them only if your plan allows. Every upload is resumable.
+ingestion:
+  posthog:
+    events_per_request: 1000          # /batch payload
+    max_request_mb: 15                 # PostHog rejects payloads above ~20 MB
+    workers: 8                         # parallel requests
+    max_requests_per_second: 20
+    max_mb_per_minute: 600
+  mixpanel:
+    events_per_request: 2000          # /import hard limit: 2,000 events per request
+    max_request_mb: 9                  # /import hard limit: 10 MB uncompressed per request
+    workers: 10
+    max_requests_per_second: 30
+    max_mb_per_minute: 1500           # /import limit: 2 GB uncompressed per minute (rolling)
+    profiles_per_request: 2000        # /engage batch limit

@@ -1,0 +1,148 @@
+{
+ "source": "llm",
+ "key": "GEMINI_API_KEY_2",
+ "data": {
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Die Blind Auditions Starten",
+      "duration_s": 5400
+     },
+     {
+      "episode": 2,
+      "title": "Gänsehautmomente bei den Blind Auditions",
+      "duration_s": 5600
+     },
+     {
+      "episode": 3,
+      "title": "Die letzten Tickets für die Teams",
+      "duration_s": 5200
+     },
+     {
+      "episode": 4,
+      "title": "Der Kampf in den Battles",
+      "duration_s": 5800
+     },
+     {
+      "episode": 5,
+      "title": "Tränen und Triumphe",
+      "duration_s": 5500
+     },
+     {
+      "episode": 6,
+      "title": "Das große Sing Off",
+      "duration_s": 5900
+     },
+     {
+      "episode": 7,
+      "title": "Das Halbfinale",
+      "duration_s": 6000
+     },
+     {
+      "episode": 8,
+      "title": "Das große Finale",
+      "duration_s": 5700
+     }
+    ]
+   },
+   {
+    "season": 2,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Neue Stimmen, neue Coaches",
+      "duration_s": 5500
+     },
+     {
+      "episode": 2,
+      "title": "Talente im Rampenlicht",
+      "duration_s": 5300
+     },
+     {
+      "episode": 3,
+      "title": "Die Buzzer glühen",
+      "duration_s": 5400
+     },
+     {
+      "episode": 4,
+      "title": "Spektakuläre Duette im Battle",
+      "duration_s": 5700
+     },
+     {
+      "episode": 5,
+      "title": "Harte Entscheidungen",
+      "duration_s": 5600
+     },
+     {
+      "episode": 6,
+      "title": "Der Weg ins Finale",
+      "duration_s": 5900
+     },
+     {
+      "episode": 7,
+      "title": "Die Finalisten stehen fest",
+      "duration_s": 5800
+     },
+     {
+      "episode": 8,
+      "title": "Wer wird die Stimme?",
+      "duration_s": 6000
+     },
+     {
+      "episode": 9,
+      "title": "Die Entscheidungsshow",
+      "duration_s": 5500
+     }
+    ]
+   },
+   {
+    "season": 3,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Der Auftakt der neuen Staffel",
+      "duration_s": 5600
+     },
+     {
+      "episode": 2,
+      "title": "Stimmen, die verzaubern",
+      "duration_s": 5400
+     },
+     {
+      "episode": 3,
+      "title": "Emotionen pur auf der Bühne",
+      "duration_s": 5300
+     },
+     {
+      "episode": 4,
+      "title": "Die allerletzten Blind Auditions",
+      "duration_s": 5500
+     },
+     {
+      "episode": 5,
+      "title": "Die explosive Battle Runde",
+      "duration_s": 5800
+     },
+     {
+      "episode": 6,
+      "title": "Musikalische Meisterleistungen",
+      "duration_s": 5700
+     },
+     {
+      "episode": 7,
+      "title": "Der Nervenkitzel im Halbfinale",
+      "duration_s": 5900
+     },
+     {
+      "episode": 8,
+      "title": "Die große Finalshow",
+      "duration_s": 6000
+     }
+    ]
+   }
+  ]
+ }
+}

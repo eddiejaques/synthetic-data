@@ -1,0 +1,93 @@
+{
+ "source": "llm",
+ "key": "GEMINI_API_KEY_2",
+ "data": {
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Geraeusche im Auto: Was will mir mein Wagen sagen?",
+      "duration_s": 2400
+     },
+     {
+      "episode": 2,
+      "title": "Der grosse Smart-Home-Check im Alltag",
+      "duration_s": 1800
+     },
+     {
+      "episode": 3,
+      "title": "Gefaelschte Lebensmittel: So erkennen Sie Betrug im Supermarkt",
+      "duration_s": 2100
+     },
+     {
+      "episode": 4,
+      "title": "Die spektakulaersten Baustellen des Landes",
+      "duration_s": 2550
+     },
+     {
+      "episode": 5,
+      "title": "Spritspartricks im Praxistest",
+      "duration_s": 1950
+     },
+     {
+      "episode": 6,
+      "title": "Gebrauchtwagenkauf vom Profi ueberprueft",
+      "duration_s": 2250
+     },
+     {
+      "episode": 7,
+      "title": "Handwerker-Notdienste im Test: Wer hilft wirklich fair?",
+      "duration_s": 2400
+     }
+    ]
+   },
+   {
+    "season": 2,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Das Geheimnis guenstiger Flugreisen",
+      "duration_s": 1920
+     },
+     {
+      "episode": 2,
+      "title": "Gefahren im Netz: So schuetzen Sie Ihre Daten",
+      "duration_s": 2100
+     },
+     {
+      "episode": 3,
+      "title": "Der grosse Matratzen-Check: Liegen oder Fliegen?",
+      "duration_s": 1850
+     },
+     {
+      "episode": 4,
+      "title": "Klimaanlagen im Auto richtig nutzen",
+      "duration_s": 2300
+     },
+     {
+      "episode": 5,
+      "title": "Versicherungsmakler im verdeckten Test",
+      "duration_s": 2450
+     },
+     {
+      "episode": 6,
+      "title": "Die dreistesten Touristenfallen in Europa",
+      "duration_s": 2150
+     },
+     {
+      "episode": 7,
+      "title": "Mietwagen-Tricks: Worauf Mieter achten muessen",
+      "duration_s": 2000
+     },
+     {
+      "episode": 8,
+      "title": "Wohnmobil-Urlaub: Vorbereitung und versteckte Kosten",
+      "duration_s": 2600
+     }
+    ]
+   }
+  ]
+ }
+}

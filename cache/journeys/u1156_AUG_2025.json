@@ -1,0 +1,46 @@
+{
+ "user_id": "u1156",
+ "period": "AUG_2025",
+ "source": "fallback",
+ "attempts": 2,
+ "violations": [
+  "session 1 (day 1 20:15) step 5 [home]: 'joyn_jerks' is not in lane 'lane_reality_tv_megahits' (pick one of its title_ids)"
+ ],
+ "journey": {
+  "sessions": [
+   {
+    "day": 1,
+    "start": "19:07",
+    "device": "d1",
+    "steps": [
+     {
+      "screen": "home",
+      "lanes": [
+       "lane_comedy_highlights",
+       "lane_top_reality_momente",
+       "lane_reality_tv_megahits"
+      ],
+      "click": {
+       "lane": "lane_reality_tv_megahits",
+       "title": "joyn_gntm"
+      },
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     },
+     {
+      "screen": "detail",
+      "lanes": [],
+      "click": null,
+      "play": null,
+      "blocked": null,
+      "auth": null,
+      "billing": null
+     }
+    ]
+   }
+  ]
+ },
+ "brief_hash": "ccfe27babed6d8c8"
+}

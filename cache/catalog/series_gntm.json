@@ -1,0 +1,73 @@
+{
+ "source": "llm",
+ "key": "GEMINI_API_KEY_1",
+ "data": {
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Das große Casting in Berlin",
+      "duration_s": 5400
+     },
+     {
+      "episode": 2,
+      "title": "Das erste Umstyling",
+      "duration_s": 5200
+     },
+     {
+      "episode": 3,
+      "title": "Der Walk auf dem Catwalk",
+      "duration_s": 4800
+     },
+     {
+      "episode": 4,
+      "title": "Das Shooting in luftiger Höhe",
+      "duration_s": 5100
+     },
+     {
+      "episode": 5,
+      "title": "Die Entscheidung vor der Jury",
+      "duration_s": 4900
+     },
+     {
+      "episode": 6,
+      "title": "Das grosse Finale",
+      "duration_s": 5800
+     }
+    ]
+   },
+   {
+    "season": 2,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Aufbruch nach Los Angeles",
+      "duration_s": 5500
+     },
+     {
+      "episode": 2,
+      "title": "Das Drama hinter den Kulissen",
+      "duration_s": 5000
+     },
+     {
+      "episode": 3,
+      "title": "Unter Wasser mit wilden Tieren",
+      "duration_s": 5300
+     },
+     {
+      "episode": 4,
+      "title": "Der Entscheidungstag",
+      "duration_s": 4800
+     },
+     {
+      "episode": 5,
+      "title": "Das grosse Wiedersehen",
+      "duration_s": 5200
+     }
+    ]
+   }
+  ]
+ }
+}

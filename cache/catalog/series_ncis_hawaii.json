@@ -1,0 +1,98 @@
+{
+ "source": "llm",
+ "key": "GEMINI_API_KEY_2",
+ "data": {
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Das Ultimatum",
+      "duration_s": 2650
+     },
+     {
+      "episode": 2,
+      "title": "Gefaehrliche Stroemung",
+      "duration_s": 2710
+     },
+     {
+      "episode": 3,
+      "title": "Im Fadenkreuz",
+      "duration_s": 2580
+     },
+     {
+      "episode": 4,
+      "title": "Spitzel im Paradies",
+      "duration_s": 2640
+     },
+     {
+      "episode": 5,
+      "title": "Tödliche Ladung",
+      "duration_s": 2750
+     },
+     {
+      "episode": 6,
+      "title": "Geheimnisse",
+      "duration_s": 2590
+     },
+     {
+      "episode": 7,
+      "title": "Ehrensache",
+      "duration_s": 2670
+     },
+     {
+      "episode": 8,
+      "title": "Schatten der Vergangenheit",
+      "duration_s": 2720
+     }
+    ]
+   },
+   {
+    "season": 2,
+    "episodes": [
+     {
+      "episode": 1,
+      "title": "Der falsche Schritt",
+      "duration_s": 2610
+     },
+     {
+      "episode": 2,
+      "title": "Falsches Spiel",
+      "duration_s": 2680
+     },
+     {
+      "episode": 3,
+      "title": "Die Abrechnung",
+      "duration_s": 2740
+     },
+     {
+      "episode": 4,
+      "title": "Verraten und verkauft",
+      "duration_s": 2590
+     },
+     {
+      "episode": 5,
+      "title": "Stumme Zeugen",
+      "duration_s": 2660
+     },
+     {
+      "episode": 6,
+      "title": "Feuertaufe",
+      "duration_s": 2700
+     },
+     {
+      "episode": 7,
+      "title": "Blutige Spuren",
+      "duration_s": 2550
+     },
+     {
+      "episode": 8,
+      "title": "Letzte Warnung",
+      "duration_s": 2790
+     }
+    ]
+   }
+  ]
+ }
+}
